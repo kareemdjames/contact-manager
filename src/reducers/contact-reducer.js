@@ -4,9 +4,9 @@ const defaultState = {
   contacts: []
 }
 
-export default (state=defaultState, action={}) => {
+export default (state=defaultState, action={} ) => {
   switch (action.type) {
-    case 'FETCH_CONTACTS' : {
+    case 'FETCH_CONTACTS': {
       return {
         ...state,
         contacts: action.payload
