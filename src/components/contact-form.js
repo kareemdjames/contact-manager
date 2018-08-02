@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ContactFrom extends Component {
+class ContactForm extends Component {
   render() {
     return (
       <div>
